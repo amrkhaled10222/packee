@@ -1,0 +1,51 @@
+name: packeee
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  #Localization
+  flutter_localizations:
+    sdk: flutter
+  intl_translation: 0.18.2
+  intl: ^0.18.0
+  recapet_widgets:
+    path: /Users/amrkhaled/StudioProjects/ecms_widgets-master/
+  provider: ^6.1.2
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: 
+  flutter_gen_runner:
+  flutter_gen: ^5.3.1
+  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/packee_logo.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+
+flutter:
+  generate: true
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/

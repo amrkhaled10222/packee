@@ -1,0 +1,18 @@
+{
+    "@@locale": "en",
+    "title": "My App",
+    "email":"E-mail",
+    "password":"Password",
+    "forgetYourPassword":"Forget Your Password?",
+    "forgetPassword":"Forget Password",
+    "signIn":"Sign In",
+    "signUp":"Sign Up",
+    "dontHaveAnAccount":"Don't Have An Account?",
+    "tapToReset": "Tap to reset",
+    "name": "Name",
+    "phone": "Phone",
+    "confirmPassword": "Confirm Password",
+     "resetPassword": "Reset Password"
+
+   
+  }

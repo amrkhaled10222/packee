@@ -1,0 +1,11 @@
+{
+    "@@locale": "ar",
+    "title": "تطبيقي",
+    "greeting": "مرحباً، {name}!",
+    "@greeting": {
+      "description": "رسالة تحية مع معلمة اسم",
+      "placeholders": {
+        "name": {}
+      }
+    }
+  }
